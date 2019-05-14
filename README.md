@@ -15,3 +15,16 @@ From the ```Main``` class, create (at least) 3 instances of Person from the Pers
 
 Extra: 
 Add the code to load all the People into an ArrayList. Add code that will allow the user to enter a number and if within range, retrieve the Person instance at that position in the ArrayList and display their info.
+
+### Exercise 2:
+
+Create a simple Bank Account class called```Account``` in your ```com.company.practice``` package.
+
+* An account should maintain a balance and have (customer) name
+* An Account should provide methods to get the current balance, make a deposit, and make a withdrawl
+
+- Create an account named "KYancy account" with the balance of 10
+- Create an account named "KGibbs account" with the balance of 1000
+- Withdraw 100.0 from KGibbs account
+- Deposit 100.0 to KYancy account
+- Print the balance from both accounts

@@ -18,13 +18,10 @@ Add the code to load all the People into an ArrayList. Add code that will allow 
 
 ### Exercise 2:
 
-Create a simple Bank Account class called```Account``` in your ```com.company.practice``` package.
+Create a simple Point class called```Point``` in your ```com.company.practice``` package.
 
-* An account should maintain a balance and have (customer) name
-* An Account should provide methods to get the current balance, make a deposit, and make a withdrawl
+* EachPoint should have an ```x``` and a ```y``` property
+* A Point should provide methods to get the current X and/or Y properties, and print out the Point (hint: toString)
 
-- Create an account named "KYancy account" with the balance of 10
-- Create an account named "KGibbs account" with the balance of 1000
-- Withdraw 100.0 from KGibbs account
-- Deposit 100.0 to KYancy account
-- Print the balance from both accounts
+- Create 3 points, print them out using the print method fromthe class
+- Load the 3 points into an ArrayList, and print the 3 points by iterating the ArrayList
